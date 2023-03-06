@@ -11,8 +11,13 @@
     color: var(--grey);
     background: var(--black);
 }
-#position{
-   padding: 20px 5em;
+#background{
+    position: absolute;
+    padding: 20px 5em 0 5em;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
 }
 body{
     max-width: 1280px;
@@ -29,6 +34,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.09em;
+    color: var(--white);
 }
 .navbar nav,
 .navbar .btn{
@@ -41,6 +47,12 @@ body{
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.2px;
+    color: var(--white);
+}
+.navbar nav a:hover,
+.navbar .btn a:hover{
+    color: var(--blue);
+    transform: scale(1.1);
 }
 .navbar .btn button{
     display: flex;
@@ -69,25 +81,27 @@ body{
     align-items: center;
     justify-content: center;
     column-gap: 10em;
-    padding: 4em 0;
+    padding: 5em 0 0 0;
 }
 .financial-assistant .content h1{
     font-weight: 800;
     font-size: 58px;
-    line-height: 1em;
+    line-height: 1.1em;
    letter-spacing: 0.05em;
    padding-bottom: 20px;
+   color: var(--white);
 }
 .financial-assistant .content p{
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
+    color: var(--grey);
 }
 .financial-assistant .content .para{
     display: flex;
     align-items: center;
     column-gap: 1em;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 .financial-assistant .content .para p{
     text-align: center;
@@ -106,6 +120,11 @@ body{
 .financial-assistant .content .para p:nth-child(2){
     background: local;
     border: 1px solid var(--white);
+    padding: 7px 22px;
+}
+.financial-assistant .content .para:hover p:nth-child(2){
+    background: var(--blue);  
+    border: 0; 
 }
 .financial-assistant img{
     width: 350px;
