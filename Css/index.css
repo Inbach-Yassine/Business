@@ -64,3 +64,50 @@ body{
     padding-left: 5px;
     font-size: 12px;
 }
+.financial-assistant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10em;
+    padding: 4em 0;
+}
+.financial-assistant .content h1{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 1em;
+   letter-spacing: 0.05em;
+   padding-bottom: 20px;
+}
+.financial-assistant .content p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+.financial-assistant .content .para{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    padding-top: 20px;
+}
+.financial-assistant .content .para p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    background: var(--blue);
+    padding: 7px 15px;
+    color: var(--white);
+    border-radius: 2em;
+}
+.financial-assistant .content .para p:hover{
+    background: var(--black);
+    color: var(--white);
+    cursor: pointer;
+}
+.financial-assistant .content .para p:nth-child(2){
+    background: local;
+    border: 1px solid var(--white);
+}
+.financial-assistant img{
+    width: 350px;
+    object-fit: cover;
+}
