@@ -12,11 +12,7 @@
     background: var(--black);
 }
 #background{
-    position: absolute;
     padding: 20px 5em 0 5em;
-    top: 0;
-    left: 0;
-    right: 0;
     background-size: cover;
 }
 body{
@@ -129,4 +125,58 @@ body{
 .financial-assistant img{
     width: 350px;
     object-fit: cover;
+}
+.quality-business{
+    padding: 3em 5em;
+}
+.quality-business h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.3em;
+    letter-spacing: 0.2px;
+    color: var(--black);
+    text-align: center;
+}
+.quality-business > p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #737373;
+    text-align: center;
+    padding-top: 10px;
+}
+.quality-business .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3em;
+}
+.quality-business .cards .box{
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.quality-business .cards .box:first-child{
+    padding: 20px 45px;
+}
+.quality-business .cards .box:nth-child(4){
+    padding: 20px 4em;
+}
+.quality-business .cards .box img{
+    width: 40px;
+    object-fit: cover;
+}
+.quality-business .cards .box h2{
+    font-weight: 700;
+    color: var(--black);
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    padding-top: 7px;
+}
+.quality-business .cards .box p{
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--grey);
+    padding-top: 7px;
 }
