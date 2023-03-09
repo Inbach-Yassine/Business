@@ -55,7 +55,8 @@ body {
 }
 
 .navbar nav a:hover,
-.navbar .btn a:hover {
+.navbar .btn a:hover,
+footer .footer-container .groups nav a:hover {
   color: var(--blue);
   transform: scale(1.1);
 }
@@ -395,8 +396,9 @@ body {
 }
 
 .contact {
-  margin: 3em 0;
+  margin: 0 0 12em 0;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact .contact-position {
@@ -419,7 +421,7 @@ body {
   background: var(--white);
   padding: 20px;
   position: relative;
-  top: 8em;
+  top: 9em;
 }
 
 .contact .contact-position .contact-us h2 {
@@ -468,4 +470,54 @@ body {
   border: 1px solid #e6e6e6;
   outline-color: var(--blue);
   padding: 7px 10px;
+}
+
+footer {
+  padding: 0 5em 0 5em;
+  background: #ececec;
+}
+
+footer .footer-container {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  padding: 3em 0 1em 0;
+}
+
+footer .footer-container .groups h3 {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+footer .footer-container .groups p {
+  font-family: 500;
+  font-size: 13px;
+  color: #737373;
+  line-height: 17px;
+  padding-bottom: 10px;
+}
+
+footer .footer-container .groups i {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+footer .footer-container .groups nav a {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  color: #737373;
+  margin-bottom: 10px;
+}
+
+.para {
+  text-align: center;
+  padding: 15px 0;
+  color: #737373;
+}
+
+.para p {
+  font-weight: 700;
+  font-size: 16px;
 }
