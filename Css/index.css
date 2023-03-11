@@ -511,13 +511,13 @@ footer .footer-container .groups nav a {
   margin-bottom: 10px;
 }
 
-.para {
+#para {
   text-align: center;
   padding: 15px 0;
   color: #737373;
 }
 
-.para p {
+#para p {
   font-weight: 700;
   font-size: 16px;
 }
